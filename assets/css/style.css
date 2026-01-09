@@ -201,6 +201,9 @@ ul{
             h4{
                 margin-bottom: 16px;
             }
+            p{
+                margin-bottom: 0;
+            }
         }
     }
 }
@@ -251,5 +254,54 @@ ul{
         p:last-child{
             margin-bottom: 0;
         }
+    }
+}
+
+.footer{
+    background-color: #001931;
+    padding-top: 120px;
+    margin-top: 120px;
+
+    .row{
+        img{
+            height: 60px;
+        }
+        .social{
+            text-align: start;
+            p{
+                font-size: 20px;
+                color: #ffffff;
+                margin-bottom: 16px;
+                padding-bottom: 0;
+            }
+            ul{
+                display: flex;
+                align-items: center;
+
+                li{
+                    background-color: #ffffff;
+                    padding: 5px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+
+                    a{
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        
+    }
+    hr{
+        margin-top: 80px;
+        margin-bottom: 16px;
+        border: none;
+        height: 0.3px;
+        background-color: #E5E7EB;
+    }
+    p{
+        color: #ffffff;
+        padding-bottom: 16px;
+        margin-bottom: 0;
     }
 }
