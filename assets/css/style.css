@@ -83,7 +83,7 @@ ul{
     padding: 16px 0;
 }
 .section{
-    margin-top: 130px;
+    margin-top: 120px;
 }
 .section_title{
     h2{
@@ -172,7 +172,7 @@ ul{
 }
 
 .notes{
-    margin-top: 65px;
+    margin-top: 60px;
     
     .note_content{
 
@@ -198,6 +198,35 @@ ul{
                 }
             }
             h4{
+                margin-bottom: 16px;
+            }
+        }
+    }
+}
+.brain{
+
+    .knowledge{
+        max-width: 500px;
+    }
+    .brain_content{
+        .tag{
+            display: block;
+            color: #30B868;
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        h2{
+            margin-bottom: 16px;
+        }
+        p{
+            color: #627382;
+        }
+        ul{
+            li{
+                display: flex;
+                align-items: center;
+                gap: 8px;
                 margin-bottom: 16px;
             }
         }
